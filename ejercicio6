@@ -2,16 +2,35 @@
 //Crear una función que muestre "¡Hola, mundo!" en la consola.
 
 function saludo (){
-let saldudo = document.querySelector("Hola Mundo");
-console.log(saludo);
+console.log("hola, mundo");
 }
+saludo();
 
 //ejercicio 2
 //Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
 
-function saludo(nombre){
-console.log(saludo, {nombre});
+function holaNombre(nombre){
+console.log(`Hola, ${nombre});
 }
+holaNombre(Heidi);
+
 
 //ejercicio 3
 //Crear una función que reciba un número como parámetro y devuelva el doble de ese número.
+
+function calcularDoble(numero){
+return numero *2;
+}
+
+let resultadoDoble = calcularDoble(5);
+console.log(reultadoDoble);
+
+//ejercicio 4
+//Crear una función que reciba tres números como parámetros y devuelva su promedio.
+
+function calcularPromedio (a+b+c){
+return (a+b+c)/3;
+}
+
+let promedio = calcularPromedio(5,6,7)
+console.log(promedio);
