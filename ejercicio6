@@ -1,0 +1,9 @@
+//ejercicio 1
+//Crear una función que muestre "¡Hola, mundo!" en la consola.
+
+function saludo (){
+let saldudo = document.querySelector("Hola Mundo");
+console.log(saludo);
+}
+
+//
