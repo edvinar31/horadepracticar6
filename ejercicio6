@@ -6,4 +6,12 @@ let saldudo = document.querySelector("Hola Mundo");
 console.log(saludo);
 }
 
-//
+//ejercicio 2
+//Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
+
+function saludo(nombre){
+console.log(saludo, {nombre});
+}
+
+//ejercicio 3
+//Crear una función que reciba un número como parámetro y devuelva el doble de ese número.
